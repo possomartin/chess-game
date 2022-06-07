@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6
+{
+    color: #6D6A75;
+}
+
 .vertical
 {
     display: flex;
@@ -51,14 +56,20 @@ body
 
     box-shadow: 0px 2px 5px 1px grey;
     border-radius: 8px;
+
+    background: #BFBDC1;
 }
 
 .canvas-container
 {
     margin: 8px 10px;
+    padding: 20px 40px;
+    
     justify-content: center;
     align-items: center;
 
     box-shadow: 0px 2px 5px 1px grey;
-    border-radius: 8px;    
+    border-radius: 8px;
+    
+    background: #37323e;
 }
