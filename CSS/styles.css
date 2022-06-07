@@ -1,0 +1,64 @@
+.vertical
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal
+{
+    display: flex;
+    flex-direction: row;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-container
+{
+    margin: 10px 20px;
+    padding: 20px 40px;
+
+    justify-content: space-around;
+}
+
+.btn
+{
+    cursor: pointer;
+
+    margin: 5px 10px;
+    padding: 5px 7px;
+
+    border-radius: 8px;
+    border: none;
+
+    box-shadow: 0px 2px 5px 1px darkgray;
+    transform: box-shadow ease 2s transform ease 2s;
+}
+
+.btn:hover
+{
+    box-shadow: 0px 3px 9px 1px grey;
+}
+
+.content-container
+{
+    margin: 8px 10px;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 2px 5px 1px grey;
+    border-radius: 8px;
+}
+
+.canvas-container
+{
+    margin: 8px 10px;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 2px 5px 1px grey;
+    border-radius: 8px;    
+}
